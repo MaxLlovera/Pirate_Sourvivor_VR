@@ -145,3 +145,88 @@ Received Import Request.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.010355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1521.180629 seconds.
+  path: Assets/Stylized_Pirate_Ship/StylShip_Barrel.prefab
+  artifactKey: Guid(7cfcb5999e6bea64ba94ad6d0123f2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized_Pirate_Ship/StylShip_Barrel.prefab using Guid(7cfcb5999e6bea64ba94ad6d0123f2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b13c37f0123b8a82e56100dedd010e') in 0.258215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Stylized_Pirate_Ship/StylShip_Cannon.prefab
+  artifactKey: Guid(78a33966cc5639b4387c905a99a39d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized_Pirate_Ship/StylShip_Cannon.prefab using Guid(78a33966cc5639b4387c905a99a39d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a3e737d30496f983fac656d393c2a3') in 0.034043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Stylized_Pirate_Ship/StylShip_Unity.prefab
+  artifactKey: Guid(a1dcd447bfbb3bc45821f8b436c031d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized_Pirate_Ship/StylShip_Unity.prefab using Guid(a1dcd447bfbb3bc45821f8b436c031d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba22979fecc9b1c5f4012be115fbf47') in 0.291197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Stylized_Pirate_Ship/StylShip_Box.prefab
+  artifactKey: Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized_Pirate_Ship/StylShip_Box.prefab using Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003fc6bfc14e58cf4e251605a0eb358f') in 0.021882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Stylized_Pirate_Ship/StylShip_Pallet.prefab
+  artifactKey: Guid(d5f4dcb5d826456449f4bf3ef85b8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized_Pirate_Ship/StylShip_Pallet.prefab using Guid(d5f4dcb5d826456449f4bf3ef85b8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5de647e8aa2121f4429315cdca02ca') in 0.017312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 652.767072 seconds.
+  path: Assets/PurePoly/Free_Swords
+  artifactKey: Guid(e8daf40778a53c646b3ab25d767c62df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free_Swords using Guid(e8daf40778a53c646b3ab25d767c62df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4ab2d0d12a35c1a31b5269033f7f77') in 0.005445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.120496 seconds.
+  path: Assets/PurePoly/Free_Swords/Prefabs
+  artifactKey: Guid(a5051d44432e3b24992945b79b50cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free_Swords/Prefabs using Guid(a5051d44432e3b24992945b79b50cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3857e8fbcc436a7ff8198b733f48cfaa') in 0.007004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049849 seconds.
+  path: Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0018.prefab
+  artifactKey: Guid(6eb18d9d451e45e4bb30bf34fdb5dbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0018.prefab using Guid(6eb18d9d451e45e4bb30bf34fdb5dbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e041b9a96742920e2f1fffa8492f611e') in 0.021521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0177.prefab
+  artifactKey: Guid(07386ea35b0703b4b860da37b73db8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0177.prefab using Guid(07386ea35b0703b4b860da37b73db8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decfcf9f0ec620eabff81d239affd6e4') in 0.012578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_1039.prefab
+  artifactKey: Guid(c7349441bb611af45ad4757004d4542b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_1039.prefab using Guid(c7349441bb611af45ad4757004d4542b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36951492eb120481ce524b8eeff0460') in 0.070268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0080.prefab
+  artifactKey: Guid(b4cbf94dda63f074da42ceb35b955c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0080.prefab using Guid(b4cbf94dda63f074da42ceb35b955c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a4f2c791a2b3f50664b34d863767cf') in 0.010138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0222.prefab
+  artifactKey: Guid(e33452043350ccc41aa0136cd51f6c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0222.prefab using Guid(e33452043350ccc41aa0136cd51f6c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac4d131cf351f08469e6386692caeec') in 0.010854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0363.prefab
+  artifactKey: Guid(9ed46828caf4aac49ba8f91d74a64dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0363.prefab using Guid(9ed46828caf4aac49ba8f91d74a64dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab3aef883cda2333abcafcbc9427e77') in 0.011101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0036.prefab
+  artifactKey: Guid(944690db56c8ecd4eb71cd85def4fa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free_Swords/Prefabs/PP_Sword_0036.prefab using Guid(944690db56c8ecd4eb71cd85def4fa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9433ff7316b84618110ce706a50a770b') in 0.010342 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
