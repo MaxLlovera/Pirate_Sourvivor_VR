@@ -2358,6 +2358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectiles:
   - {fileID: 8233704037746005823, guid: 829617c364507434ab8c53961a888460, type: 3}
+  - {fileID: 4986575327622765189, guid: d9d3e73854d3ecf459f963db69b49cc2, type: 3}
   - {fileID: 8233704037746005823, guid: 4087bdc9ab4304a458ee9b7284a4fa05, type: 3}
   points:
   - {fileID: 1057401981}
