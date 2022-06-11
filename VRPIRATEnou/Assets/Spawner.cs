@@ -7,6 +7,8 @@ public class Spawner : MonoBehaviour
     public GameObject[] projectiles;
     public Transform[] points;
     private float timer;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
 
     void Start()
     {
@@ -21,6 +23,7 @@ public class Spawner : MonoBehaviour
             GameObject projectile = Instantiate(projectiles[Random.Range(0, 2)], points[Random.Range(0, 4)]);
             projectile.transform.localPosition = Vector3.zero;
             projectile.transform.Rotate(transform.forward, 90 * Random.Range(0, 4));
+            audioSource.PlayOneShot(audioClip);
             timer -= 6;
         }
         timer += Time.deltaTime;
