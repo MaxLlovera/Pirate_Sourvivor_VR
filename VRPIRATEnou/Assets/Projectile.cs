@@ -5,6 +5,9 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     List<Collider> colliders = new List<Collider>();
+    public AudioSource audioSource;
+    public AudioClip audiosword;
+    public AudioClip audiobullet;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,10 +24,14 @@ public class Projectile : MonoBehaviour
         if (collision.collider.gameObject.tag == "Bullet")
         {
             Destroy(this.gameObject);
+            audioSource.PlayOneShot(audiobullet);
+
         }
         else if (collision.collider.gameObject.tag == "Sword")
         {
             Destroy(this.gameObject);
+            audioSource.PlayOneShot(audiosword);
+
         }
     }
 }
