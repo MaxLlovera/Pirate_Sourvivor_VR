@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3008305717339890929}
   - component: {fileID: 4194087243150759736}
   - component: {fileID: 1913440647378338733}
-  - component: {fileID: 6958453874901376370}
+  - component: {fileID: 6499807495012812972}
   m_Layer: 4
   m_Name: Projectile
   m_TagString: Untagged
@@ -110,9 +110,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c68e9e64485f6074b9fe8a6a374735b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 6958453874901376370}
+  audioSource: {fileID: 6499807495012812972}
   audioClip: {fileID: 8300000, guid: 7254e2c642b869e4abebfa78302c0df3, type: 3}
---- !u!82 &6958453874901376370
+  audioClip2: {fileID: 8300000, guid: aabd053efcb9343489a4653a76acc5c3, type: 3}
+  audioClip3: {fileID: 8300000, guid: 930d44bc2d9892a4b99d1974a9df0b7c, type: 3}
+--- !u!82 &6499807495012812972
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,7 +137,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0

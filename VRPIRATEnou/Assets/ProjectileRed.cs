@@ -8,6 +8,9 @@ public class ProjectileRed : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip audioClip;
     private int life = 3;
+    public static bool soundDead = false;
+    public static bool soundSword = false;
+    public static bool soundExplosion = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,20 +24,37 @@ public class ProjectileRed : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.gameObject.tag == "Bullet" && life < 0) life--;
-        if (life == 0)
+        if (collision.collider.gameObject.tag == "Bullet" && life > 0)
         {
-            Debug.Log("Toca");
-            ScoreScript.scoreValue += 100;
+            life--;
             audioSource.PlayOneShot(audioClip);
+        }
+        if (collision.collider.gameObject.tag == "Bullet" && life == 0)
+        {
+            ScoreScript.scoreValue += 100;
+            soundExplosion = true;
+            Destroy(this.gameObject);
+        }
+        if (collision.collider.gameObject.tag == "Sword" && life == 0)
+        {
+            ScoreScript.scoreValue += 100;
+            soundSword = true;
+            Destroy(this.gameObject);
+        }
+        if (collision.collider.gameObject.tag == "Sword" && life > 0)
+        {
+            life--;
+            soundSword = true;
+        }
+        if (collision.collider.gameObject.tag == "Dead")
+        {
+            Spawner.counter = 0;
+            Spawner.spawnTimer = 8;
+            ScoreScript.scoreValue = 0;
+            soundDead = true;
             Destroy(this.gameObject);
 
         }
-        //else if (collision.collider.gameObject.tag == "Sword")
-        //{
-        //    Destroy(this.gameObject);
-
-        //}
     }
 }
 

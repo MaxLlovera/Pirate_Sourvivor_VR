@@ -4,20 +4,26 @@ using UnityEngine;
 
 public class Sword : MonoBehaviour
 {
-    public LayerMask layer;
+    public GameObject sword;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Physics.IgnoreCollision(sword.GetComponent<Collider>(), GetComponent<Collider>());
     }
 
     // Update is called once per frame
     void Update()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, 1, layer))
+        transform.position = sword.transform.position;
+        transform.rotation = Quaternion.Euler(sword.transform.rotation.x+90, sword.transform.rotation.y, sword.transform.rotation.z);
+        if (ProjectileRed.soundSword || Projectile.soundSword || ProjectileBlue.soundSword)
         {
-            Destroy(hit.transform.gameObject);
+            audioSource.PlayOneShot(audioClip);
+            ProjectileRed.soundSword = false;
+            Projectile.soundSword = false;
+            ProjectileBlue.soundSword = false;
         }
     }
 }

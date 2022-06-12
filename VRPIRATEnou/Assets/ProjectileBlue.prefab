@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 9169684413188095021}
   - component: {fileID: 2220142647298779467}
   - component: {fileID: 955965736405031554}
-  - component: {fileID: 6332418466423607496}
   - component: {fileID: 8467072803789840244}
+  - component: {fileID: -1896607909964214977}
   m_Layer: 4
   m_Name: ProjectileBlue
   m_TagString: Untagged
@@ -98,7 +98,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!82 &6332418466423607496
+--- !u!114 &8467072803789840244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4986575327622765189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888da002a20b0594d969cc0c6d561886, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: -1896607909964214977}
+  audioClip: {fileID: 8300000, guid: 7254e2c642b869e4abebfa78302c0df3, type: 3}
+--- !u!82 &-1896607909964214977
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,7 +135,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -194,17 +208,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8467072803789840244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4986575327622765189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 888da002a20b0594d969cc0c6d561886, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 6332418466423607496}
-  audioClip: {fileID: 8300000, guid: 7254e2c642b869e4abebfa78302c0df3, type: 3}

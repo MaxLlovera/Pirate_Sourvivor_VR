@@ -6,9 +6,9 @@ public class Spawner : MonoBehaviour
 {
     public GameObject[] projectiles;
     public Transform[] points;
-    private float timer;
-    private int counter = 0;
-    private int spawnTimer = 8;
+    public float timer;
+    public static int counter = 0;
+    public static int spawnTimer = 8;
     public AudioSource audioSource;
     public AudioClip audioClip;
 
