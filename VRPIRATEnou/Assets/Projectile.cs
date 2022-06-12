@@ -23,6 +23,7 @@ public class Projectile : MonoBehaviour
         if (collision.collider.gameObject.tag == "Bullet")
         {
             Debug.Log("Toca");
+            ScoreScript.scoreValue += 10;
             audioSource.PlayOneShot(audioClip);
             Destroy(this.gameObject);
 

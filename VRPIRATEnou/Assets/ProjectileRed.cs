@@ -25,7 +25,7 @@ public class ProjectileRed : MonoBehaviour
         if (life == 0)
         {
             Debug.Log("Toca");
-
+            ScoreScript.scoreValue += 100;
             audioSource.PlayOneShot(audioClip);
             Destroy(this.gameObject);
 
